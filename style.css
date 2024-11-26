@@ -1,0 +1,194 @@
+
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    background-color: beige;
+}
+.text_primary {
+    color:seagreen;
+}
+header{
+    background-color:whitesmoke;
+    height: 100vh;
+}
+header.navbar{
+    background-color: darkgrey;
+    border-bottom: 0px solid#ccc;
+    position: fixed;
+    width: 100%;
+    padding: 1.5rem 2rem;
+
+}
+header .navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    background-color: antiquewhite;
+
+}
+#home #logo {
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+header .navbar nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+header .navbar nav ul a {
+    margin: 0 15px;
+    color: #000;
+    font-weight: 600;
+
+}
+ .header_content{
+    display:grid;
+    grid-template-columns: 1.5fr 1fr;
+    min-width: 1100px;
+    background-color: whitesmoke;
+    align-items: center;
+
+} .header_content img{
+    max-width: 500;
+
+}
+#home .header_content p span {
+    font-weight: 700;
+    font-size: 20px;
+
+}
+ #home .header_content h1 {
+    font-size: 60px;
+    color: sienna;
+    text-shadow: 3px 3px 3px rgba(0, 0,0, 0.2);
+}
+#home .header_content  .titel {
+    font-size: 20px;
+    color: sienna;
+    margin: 10px 0px;
+    font-weight: 500;
+}
+#home .header_content .social {
+    margin: 1rem 0 2rem;
+}
+
+#home .header_content .socia i {
+    font-size: 18px;
+    padding: 10px;
+    background-color: gray;
+
+}
+.about, #skilles {
+    padding: 6rem o;
+}
+.about h2, #contcet h2 {
+    text-align: center;
+    font-size: 38px;
+    color: rosybrown;
+    font-weight: 600;
+    
+} 
+.about hr  {
+    width: 100px;
+    height: 3px;
+    background-color: green;
+    border: none;
+    margin: 5px auto 0;
+
+}
+.about .bout_contnet {
+    margin-top: 4rem;
+    display: flex;
+    grid-template-columns: 2fr 1fe ;
+
+}
+.about .bout_contnet .col_1 {
+    color: grey;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+.row img {
+    max-width: 40px;
+
+}
+ .skills_content {
+    margin: 2rem;
+    background-color: slategrey;
+}
+.skills_content .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+.skills_content .row .itme {
+    color: white;
+    background-color: black;
+    margin: 20px;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.contect {
+    padding: 4rem o;
+}
+#contect .row {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #ccc;
+}
+.footer {
+    padding-top: calc(var(--section-padding) /2);
+    padding-bottom: calc(var(--section-paddin /2));
+    background-image:url(00000.jpg);
+    background-size: cover;
+    position: relative;
+    color: black;
+    text-align: center;
+}
+.footer::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0 /70) ;
+}
+.footer .container {
+    position: relative;
+    
+}
+
+
+
+
+
+
+
+
+    
+    
+
